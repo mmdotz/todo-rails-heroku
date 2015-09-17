@@ -11,7 +11,7 @@ class TasksController < ApplicationController
   end
 
   def show
-    render text: "params : #{params.inspect}"
+    # render text: "params : #{params.inspect}"
     if Task.exists?(params[:id])
       task = Task.find(params[:id])
       render json: task.to_json, status: 200
