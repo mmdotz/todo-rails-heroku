@@ -12,13 +12,11 @@ See below:
 
 ###The Following URL requirements were tested in the Rails Todo app:
 
-`http://localhost:3000/tasks` should display all the tasks as JSON  #change this to heroku
-`http://localhost:3000/tasks/new` should display an empty (new) task as JSON
-`http://localhost:3000/tasks/1` should display just that single tasks as JSON
-`http://localhost:3000/tasks/8989898` should display an error message as JSON
-Sending a `POST` request to http://localhost:3000/tasks with the params of { "task": "Finish Homework" } I should see my task returned to me as json (Using Postman)
-Sending a `DELETE` request to `http://localhost:3000/tasks/1` should delete that task from the database and return the message “deleted” as json (Using Postman)
+`http://localhost:3000/tasks` should display all the tasks as HTML
+`http://localhost:3000/tasks/new` should display an empty (new) task as HTML
+`http://localhost:3000/tasks/1` should display just that single task as HTML
+`http://localhost:3000/tasks/8989898` should display an error message as HTML
 
-Sending a `PUT` request to `http://localhost:3000/tasks/2` with the params of { completed: true } should update the task in the database and display to me the newly changed task as json (Using Postman)
+
 
 
