@@ -1,3 +1,5 @@
-<h4><%= one_task.task %></h4>
-<p><%= one_task.completed %></p>
-<a href='/tasks/'<%= one_task.task %></a>
+<h4>
+  Task #<%= one_task.id %>.
+  <%= one_task.task %>
+</h4>
+<p>Completed? <%= one_task.completed %></p>
