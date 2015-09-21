@@ -2,9 +2,11 @@
   <h2>Tasks</h2>
   <% all_tasks.each do |task, id| %>
     <p>
+    <a href='/tasks/:id'>
         <%= task.id %> .
         <%= task.task %> --
       <%= task.completed  %>
+      </a>
    </p>
   <% end %>
 </section>
