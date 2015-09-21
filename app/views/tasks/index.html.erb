@@ -1,8 +1,9 @@
 <section class='tasks'>
   <h2>Tasks</h2>
-  <% all_tasks.each do |task| %>
+  <% all_tasks.each do |task, id| %>
     <p>
-      <%= task.task %> --
+        <%= task.id %> .
+        <%= task.task %> --
       <%= task.completed  %>
    </p>
   <% end %>

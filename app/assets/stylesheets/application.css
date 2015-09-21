@@ -18,17 +18,28 @@
 
 body {
   font-family: 'helvetica', Arial, sans-serif;
+  text-align: center;
+  background-color: tan;
 }
 
 a {
-  color: orange;
+  color: #007ACC;
 }
 
-h1, footer {
+h1 {
   color: pink;
+  text-shadow: 2px 2px #ff0000;
+
 }
 
 h2 {
   color: green;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 90px;
+
+
 }
 

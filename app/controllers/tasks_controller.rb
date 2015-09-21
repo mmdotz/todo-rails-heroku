@@ -35,8 +35,6 @@ class TasksController < ApplicationController
     end
   end
 
-  #edit would go here
-
   def create
     #For create to work, we must *require* that a parameter is sent with the name 'task'
     if params[:task].empty?
