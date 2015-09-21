@@ -7,8 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <h1>My Todo App in Rails</h1>
+    <nav>
+      <a href="/incomplete">Incomplete</a>
+      <a href="/finished">Finished</a>
+    </nav>
+  </header>
 
 <%= yield %>
 
+
+
+
+  <footer>Created by mmdotz</footer>
 </body>
 </html>

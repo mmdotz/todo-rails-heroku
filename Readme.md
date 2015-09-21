@@ -19,6 +19,6 @@ See below:
 Sending a `POST` request to http://localhost:3000/tasks with the params of { "task": "Finish Homework" } I should see my task returned to me as json (Using Postman)
 Sending a `DELETE` request to `http://localhost:3000/tasks/1` should delete that task from the database and return the message “deleted” as json (Using Postman)
 
-Sending a `PUT` request to `http://localhost:3000/tasks/2` with the params of { completed: true } should update the task in the database and display to me the newly changed task as json (Using Postman)```
+Sending a `PUT` request to `http://localhost:3000/tasks/2` with the params of { completed: true } should update the task in the database and display to me the newly changed task as json (Using Postman)
 
 
