@@ -1,8 +1,8 @@
 <section class='tasks'>
   <h2>Tasks</h2>
-  <% all_tasks.each do |task, id| %>
+  <% all_tasks.each do |task| %>
     <p>
-    <a href='/tasks/:id'>
+    <a href='/tasks/<%=task.id%>'>
         <%= task.id %> .
         <%= task.task %> --
       <%= task.completed  %>
