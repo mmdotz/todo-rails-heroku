@@ -1,10 +1,11 @@
-<section class='students'>
-  <h2>Students</h2>
-  <% all_students.each do |student| %>
+<section class='tasks'>
+  <h2>Tasks</h2>
+  <% all_tasks.each do |task| %>
     <p>
-      <%= student.first_name %>
-      <%= student.last_name  %>
-      <strong><%= student.gpa %></strong>
+      <%= task.task %>
+      <%= task.completed  %>
    </p>
   <% end %>
 </section>
+
+<!--working!-->
