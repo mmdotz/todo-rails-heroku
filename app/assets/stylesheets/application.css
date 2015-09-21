@@ -20,11 +20,17 @@ body {
   font-family: 'helvetica', Arial, sans-serif;
   text-align: center;
   background-color: tan;
-  background-image:
+  background: url("/assets/flowers.jpeg");
+}
+
+.navbar {
+  display: block;
+  background-color: #C2A385;
+  padding: 3px;
 }
 
 a {
-  color: #007ACC;
+  $link_color: #007ACC;
 }
 
 h1 {
