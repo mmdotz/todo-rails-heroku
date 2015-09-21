@@ -20,6 +20,7 @@ body {
   font-family: 'helvetica', Arial, sans-serif;
   text-align: center;
   background-color: tan;
+  background-image:
 }
 
 a {
@@ -38,9 +39,11 @@ h2 {
 }
 
 footer {
-  margin-top: 90px;
   border-top: 2px solid gray;
-  padding-top: 5px;
-
+  padding-top: 10px;
+  height: 90px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
