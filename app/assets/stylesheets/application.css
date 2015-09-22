@@ -15,6 +15,9 @@
 
 
  */
+/*
+$text_color_with_photo: #FFFFDA;
+*/
 
 body {
   font-family: 'helvetica', Arial, sans-serif;
@@ -23,9 +26,9 @@ body {
   background: url("/assets/flowers.jpeg");
 }
 
-.navbar {
+nav {
   display: block;
-  background-color: #C2A385;
+  background-color: #FFFFDA;
   padding: 3px;
 }
 
@@ -40,12 +43,22 @@ h1 {
 }
 
 h2 {
-  color: gray;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
   text-transform: uppercase;
 }
 
+.mainshow {
+  background-color: rgba(204, 255, 204, 0.5)
+  border: dotted;
+}
+
+.tasks a {
+  color: black;
+}
+
 footer {
-  border-top: 2px solid gray;
+  border-top: 2px solid tan;
   padding-top: 10px;
   height: 90px;
   position: fixed;
