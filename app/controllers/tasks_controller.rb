@@ -61,8 +61,8 @@ class TasksController < ApplicationController
     if Task.exists?(params[:id])
       task = Task.find(params[:id])
       task.destroy
-      message = "Task #{task} was deleted."
-      render json: message, status: 200
+      message = "Task was deleted."
+      render html: message, status: 200
     end
   end
 

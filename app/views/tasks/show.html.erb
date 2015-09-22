@@ -10,6 +10,6 @@
   </h4>
 
   <p>Completed? <em><%= one_task.completed %></em></p>
-  <%= link_to "Remove", one_task.task, :method => :delete %>
+  <%= link_to "Remove", one_task.id, :method => :destroy %>
 
 </main>
